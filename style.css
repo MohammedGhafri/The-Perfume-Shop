@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+
+header {
+    width: 99%;
+    margin-left: 0.5%;
+    background-color: #383737;
+    height: 70px;
+}
+
+h1 {
+    color: #f3f3f3;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    padding-left: 40%;
+    line-height: 70px;
+}
+
+#divOne {
+    background-color: #3a303099;
+    border-radius: 5px;
+    float: left;
+    margin: 8% 0 0 15%;
+    width: 30%;
+}
+
+fieldset {
+    border-radius: 5px;
+}
+
+label, input {
+    display: block;
+}
+
+label {
+    position: relative;
+    font-family: 'Lobster', cursive;
+    color: #f3f3f3;
+    left: 45%;
+    /* top:20%; */
+    padding: 3% 0;
+}
+
+input {
+    width: 90%;
+    position: relative;
+    left: 5%;
+    height: 30px;
+    /* border-radius: 3px; */
+    border-radius: 3px;
+    border: none;
+}
+
+input:last-of-type {
+    /* padding: 1% 0; */
+    margin: 3% 0;
+    color: #f3f3f3;
+    /* width: 91%; */
+    background-color: #383737;
+    /* opacity: 0.8; */
+}
+
+input:last-of-type:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#divtwo {
+    float: left;
+    margin: 8% 0 0 8%;
+    width: 40%;
+    background-color: #3a303099;
+    opacity: 0.8;
+}
+
+#divtwo p {
+    margin: 8% 0 7% 32%;
+    font-family: 'Lobster', cursive;
+}
+
+#divtwo table {
+    width: 93%;
+    margin: 1% 0 4% 3%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid white;
+    color: #f3f3f3;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+th {
+    background-color: #383737;
+    opacity: 1;
+    font-size: 24px;
+    height: 51px;
+}
+
+td:last-child {
+    background-color: red;
+    background-size: 10%;
+}
+
+td {
+    font-size: 18px;
+}
